@@ -23,6 +23,14 @@ header p {
     margin: 0.5rem 0 0;
 }
 
+header .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
 section {
     margin: 2rem auto;
     padding: 1rem;
@@ -54,4 +62,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+i {
+    margin-right: 0.5rem;
 }
